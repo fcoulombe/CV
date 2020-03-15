@@ -440,8 +440,8 @@
 %                    {<Technology list>}
 \newcommand\experience[7]{
 	\textbf{#1}    & \textbf{#2}   						\\
-  \textbf{#5}-\textbf{#3}	 & 	#4						\\
-  \textbf{#6}    & \begin{minipage}[t]{\rightcolumnlength}
+  \textbf{\small{#5}}-\textbf{\small{#3}}	 & 	#4						\\
+  \textbf{\small{#6}}    & \begin{minipage}[t]{\rightcolumnlength}
   					         #7
                    \end{minipage}										\\
   }
