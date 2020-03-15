@@ -439,11 +439,11 @@
 %                    }
 %                    {<Technology list>}
 \newcommand\experience[7]{
-	\textbf{#1}    & \textbf{#2}   						\\
-  \textbf{\small{#5}}-\textbf{\small{#3}}	 & 	#4						\\
-  \textbf{\small{#6}}    & \begin{minipage}[t]{\rightcolumnlength}
+	\textbf{#1}    			& \textbf{#2}   					\\
+	\textbf{\small{#6}}	 	& 	#4						\\
+	\textbf{\small{#5}}-\textbf{\small{#3}}    			& \begin{minipage}[t]{\rightcolumnlength}
   					         #7
-                   \end{minipage}										\\
+                   \end{minipage}								\\
   }
 
 % Render a consultant experience in the experiences environment
