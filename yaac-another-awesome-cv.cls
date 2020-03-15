@@ -403,9 +403,9 @@
 % Render a scholarshipentry in the scolarship environment
 % Usage: \scholarshipentry{<date>}{<description>}
 \newcommand\scholarshipentry[6]{
-  \textbf{#1}    & #2 \\
-  \textbf{#3}	 & #4 \\
-  \textbf{#5}	 & #6 \\
+	\textbf{#1}    & \textbf{#2} \\
+	      \textbf{\small{#3}}	 & #4 \\
+	      \textbf{\small{#5}}	 & #6 \\
 }
 
 % Define the 'skills' environment
