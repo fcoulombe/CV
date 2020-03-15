@@ -442,7 +442,7 @@
 \newcommand\experience[7]{
 	\textbf{#1}						& \textbf{#2}					\\
 	\textbf{\small{#6}} 	 	& 	#4						\\
-	\textbf{\hfill \small{#5}} \linebreak \textbf{\hfill \small{#3}} 						& \begin{minipage}[t]{\rightcolumnlength}
+	\multirow{2}{4em}{ \begin{flushright} \textbf{\small{#5}} \linebreak \textbf{\small{#3}} \end{flushright} } 						& \begin{minipage}[t]{\rightcolumnlength}
  					         			#7
                   						  \end{minipage}					\\
  }
